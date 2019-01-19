@@ -12,9 +12,6 @@
     height: 30%;
     width: 70%;
     margin: auto;
-    /* align-items: stretch; */
-    
-    
 }
 
 .individual_box{
@@ -27,7 +24,7 @@
     margin: 33px; 
     border-radius: 20px;
     box-shadow: 10px 10px 25px 0px rgba(0,0,0,20%);
-    
+    cursor: pointer; 
 }
 
 .bigBlueO{
@@ -45,28 +42,23 @@
     flex-wrap: wrap;
     align-content: center;
     font-size: 150px;
-
 }
 
 
   .button {
-    backface-visibility: hidden;
-  position: relative;
+  
   cursor: pointer;
   display: inline-block;
-  white-space: nowrap;
   background: #fff;
   border-radius: 5px;
   border: 1px solid #918b8b;
-  border-width: 1px 1px 1px 1px;
-  padding: 10px 20px 10px 20px;
+  border-width: 1px;
+  padding: 10px 20px;
   box-shadow: inset 0px 1px 0px #ffffff,0px 1px 3px rgba(0,0,0,0.3);
     color: #121212;
   font-size: 16px;
   font-family: Courier New;
   font-weight: 100;
-  font-style: normal;
-  text-shadow: 0px 0px 0px rgba(0%,0%,0%,0.4)
   }
   
   
